@@ -42,15 +42,16 @@ Response
 ```
 
 ## 🛠️ Run Locally
-
+```bash
 pip install -r requirements.txt
 uvicorn api:app --reload
-
+```
 Then open:
-
+```text
 http://127.0.0.1:8000
-
+```
 ## 📁 Project Structure
+```text
 ai-chatbot-fastapi/
 │
 ├── api.py          # FastAPI backend + frontend
@@ -58,7 +59,7 @@ ai-chatbot-fastapi/
 ├── .env.example    # environment variables example
 ├── requirements.txt
 └── demo.gif
-
+```
 ## ⚙️ Tech Stack
 🐍 Python
 ⚡ FastAPI
@@ -68,7 +69,7 @@ ai-chatbot-fastapi/
 ## 🔒 Notes
 
 Create a .env file with your OpenAI API key:
-
+```env
 OPENAI_API_KEY=your_api_key_here
-
+```
 The .env file is ignored in .gitignore for security reasons.
