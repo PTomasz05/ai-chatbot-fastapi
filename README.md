@@ -41,7 +41,8 @@ Response
 }
 ```
 
-🛠️ Run Locally
+## 🛠️ Run Locally
+
 pip install -r requirements.txt
 uvicorn api:app --reload
 
@@ -49,7 +50,7 @@ Then open:
 
 http://127.0.0.1:8000
 
-📁 Project Structure
+## 📁 Project Structure
 ai-chatbot-fastapi/
 │
 ├── api.py          # FastAPI backend + frontend
@@ -58,13 +59,13 @@ ai-chatbot-fastapi/
 ├── requirements.txt
 └── demo.gif
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 🐍 Python
 ⚡ FastAPI
 🤖 OpenAI API
 🌐 HTML + JavaScript
 
-🔒 Notes
+## 🔒 Notes
 
 Create a .env file with your OpenAI API key:
 
