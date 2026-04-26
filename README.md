@@ -61,10 +61,12 @@ ai-chatbot-fastapi/
 └── demo.gif
 ```
 ## ⚙️ Tech Stack
+```text
 🐍 Python
 ⚡ FastAPI
 🤖 OpenAI API
 🌐 HTML + JavaScript
+```
 
 ## 🔒 Notes
 
